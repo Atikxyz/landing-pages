@@ -1,0 +1,123 @@
+@media only screen and (max-width: 992px) {
+  #header .nav-link {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background: black;
+    width: 0%;
+    height: 100vh;
+    overflow-y: hidden;
+    transition: all 0.5s;
+    z-index: 10;
+  }
+  #header .nav-link ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    order: 2;
+    padding: 0;
+    width: 100%;
+  }
+  #header .nav-link ul li {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  #header .nav-link .icon {
+    order: 1;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    height: 50px;
+  }
+  #header .logo {
+    flex-basis: 100%;
+  }
+  #header .nav-link .fa-solid {
+    color: red;
+    font-size: 40px;
+    padding: 15px;
+    display: block;
+  }
+  #header .fa-bars {
+    display: block;
+  }
+
+  /* hero-area */
+   #hero-area .padding{
+     padding: 200px 0;
+    padding-bottom: 0;
+}
+  .row{
+    display: flex;flex-direction: column;
+  }
+  #hero-area .left-area {
+  width: 100%;
+}
+#hero-area .right-area {
+  width: 100%;
+}
+#hero-area .right-area .card {
+  margin: 70px auto;
+width: auto;
+height: 450px;
+margin-bottom: 25px;
+}
+#hero-area .right-area .card img {
+  width: 330px;
+  height: 315px;
+  margin: 20px 0;
+}
+#hero-area .right-area .next-previous {
+margin-top: 0;
+}
+#product .our-product{
+  grid-template-columns: auto auto auto;
+
+}
+#best-price .round{
+  width: 350px;
+height: 350px;
+
+}
+#best-price .round .child-round{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 200px;
+height: 200px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #product .our-product .product-item h4 {
+  font-size: 16px;;
+}
+}
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+#product .selects {
+  width: 100%;
+}
+  #product .our-product{
+  grid-template-columns: auto;
+
+}
+#product .our-product .product-item h4 {
+  font-size: 16px;
+}
+#product h2 {
+  font-size: 30px;
+}
+#best-price .grid{
+  grid-template-columns: 100%;
+}
+#best-price span {
+    font-size: 50px;
+}
+#best-price .right-area {
+    margin: 30px 0;
+}
+}

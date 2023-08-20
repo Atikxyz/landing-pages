@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>landing-page</title>
+  <!-- font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- header-area -->
+  <header id="header">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="img/Frame.svg" alt="logo"><span>Pop Rock Crystal</span>
+        </div>
+        <div class="nav-link" id="navLink">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">help</a></li>
+          </ul>
+
+          <div class="icon">
+            <span>00</span>
+            <img src="img/basket.svg" alt="">
+          </div>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- hero-area -->
+  <section id="hero-area">
+    <div class="container ">
+      <div class="row">
+        <div class="left-area padding">
+          <h4 class="subtitle">Welcome to </h4>
+          <h1 class="title"> Pop Rock Crystal Shop!</h1>
+          <p>Here you will find unique phone accessories, crystals, jewelry and more. Free shipping inside the U.S. and
+            our phone
+            grips come with a limited warranty. Enjoy!
+          </p>
+          <div class="btn-grp">
+            <button class="btn">SHOP NOW</button>
+            <button class="btn">about us</button>
+          </div>
+        </div>
+        <div class="right-area">
+             <div class="card fade">
+              <h5 class="card-title">New lot</h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+              <div class="card fade">
+              <h5 class="card-title">New </h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+                <div class="card fade">
+              <h5 class="card-title"> lot</h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+             <div class="card fade">
+              <h5 class="card-title">New lot</h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+              <div class="card fade">
+              <h5 class="card-title">New </h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+                <div class="card fade">
+              <h5 class="card-title"> lot</h5>
+               <img src="img/Без имени-1 1 (1).png" alt="">
+               <h2>Crystal Agate Phone Grip <span>- 18.99$</span></h2>
+             </div>
+             <div class="next-previous">
+              <i class="fa-solid fa-arrow-left left-arrow" onclick="plusSlides(-1)"></i>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+              <i class="fa-solid fa-arrow-right right-arrow" onclick="plusSlides(1)"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- product-area -->
+<section id="product">
+  <div class="container padding">
+    <h2>All product</h2>
+    <div class="selects">
+    <div>
+            <span>Filter:</span>
+    <select>
+    <option value="0">All Products</option>
+    <option value="1">product-1</option>
+    <option value="2">product-2</option>
+    <option value="3">product-3</option>
+  </select>
+    </div>
+   <div>
+        <span>Filter:</span>
+    <select>
+    <option value="0">Best Selling</option>
+    <option value="1">product-1</option>
+    <option value="2">product-2</option>
+    <option value="3">product-3</option>
+  </select>
+   </div>
+  </div>
+  <div class="our-product">
+    <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+        <div class="product-item">
+        <img src="img/Без имени-1 1.png" alt="">
+        <h4>Crystal Agate Phone Grip <span>18.99$</span></h4>
+        <button class="btn">BUY NOW</button>
+    </div>
+  </div>
+  <button class="btn btn2">view all</button>
+  </div>
+</section>
+
+<!-- best-price -->
+<section id="best-price">
+  <div class="bg">
+  <div class="container">
+    <div class="grid">
+      <div class="left-area">
+        <h4 class="subtitle">BEST PRICE</h4>
+        <h1 class="title">Agate Phone Grip</h1>
+        <h5>44.50$</h5>
+        <span>19.50$</span>
+        <p>These Pop Rock Crystal grip tops can be swapped with other tops depending on your mood, outfit, nails, phone case, holiday, etc.! Just gently squeeze the sides to remove and swap out with another color or design!
+         </p>
+        <button class="btn">BUY NOW</button>
+      </div>
+      <div class="right-area">
+        <div class="round">
+          <div class="child-round">
+            <img src="img/Без имени-1 1.png" alt="">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <script src=" js/some.js">
+  </script>
+</body>
+
+</html>
